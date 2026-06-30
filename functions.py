@@ -1,17 +1,18 @@
+print("_____1.sum of two numbers__________\n")
 def sum(a,b):
 	c=a+b
 	print("sum of two numbers is :",c)
 sum(10,20)
 
-print("___________")
 
+print("\n______2.product of two numbers_____\n")
 
 def product(c,d):
 	e=c*d
 	print("product of two numbers is :",e)
 product(5,30)
 
-print("_____________")
+print("\n_______3.division of two numbers______\n")
 
 def div(e,f):
 	g=e/f
@@ -19,7 +20,7 @@ def div(e,f):
 b=div(3,9)
 print(b)
 
-print("________________")
+print("\n______4.module of two numbers________\n")
 
 def mod(b,v):
 	g=b%v
@@ -27,7 +28,7 @@ def mod(b,v):
 mod(3,9)
 print(mod(3,9))
 
-print("__________")
+print("\n_______5.subtraction of two numbers_____\n")
 
 def sub(f,b):
 	v=f-b
@@ -35,7 +36,7 @@ def sub(f,b):
 s=sub(10,20)
 print(s)
 
-print("___________")
+print("\n_______6.check whether number is even or odd_____\n")
 
 def even_odd(n):
 	if n%2==0:
@@ -44,7 +45,7 @@ def even_odd(n):
 		print("odd number")
 even_odd(15)
 
-print("________")
+print("\n______7.finding number of digits______\n")
 
 def single_double(n):
 	if -9 <= n <= 9:
@@ -55,7 +56,7 @@ def single_double(n):
 		print("invalid number")
 single_double(12)
 
-print("_________")
+print("\n______8.hello world_______\n")
 
 def hello(n):
 	s=n
