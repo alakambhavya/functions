@@ -44,3 +44,21 @@ def even_odd(n):
 		print("odd number")
 even_odd(15)
 
+print("________")
+
+def single_double(n):
+	if -9 <= n <= 9:
+		print("single digit number")
+	elif -99 <= n <= 99:
+		print("double digit number")
+	else:
+		print("invalid number")
+single_double(12)
+
+print("_________")
+
+def hello(n):
+	s=n
+	return s
+hello("hello_world")
+print(hello("hello_world"))
