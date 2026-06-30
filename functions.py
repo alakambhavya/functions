@@ -63,3 +63,23 @@ def hello(n):
 	return s
 hello("hello_world")
 print(hello("hello_world"))
+
+print("\n___________9.movie________\n")
+
+def movie():
+	hero=True
+	heroine=True
+	fighting=True
+	set=True
+	die=False
+	blood=False
+	print("hero:",hero)
+	print("heroine:",heroine)
+	print("fighting:",fighting)
+	print("set:",set)
+	print("die:",die)
+	print("blood:",blood)
+movie()
+
+
+
