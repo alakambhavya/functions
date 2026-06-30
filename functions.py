@@ -27,3 +27,20 @@ def mod(b,v):
 mod(3,9)
 print(mod(3,9))
 
+print("__________")
+
+def sub(f,b):
+	v=f-b
+	return v
+s=sub(10,20)
+print(s)
+
+print("___________")
+
+def even_odd(n):
+	if n%2==0:
+		print("even number")
+	else:
+		print("odd number")
+even_odd(15)
+
