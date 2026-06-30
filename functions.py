@@ -81,5 +81,14 @@ def movie():
 	print("blood:",blood)
 movie()
 
+print("\n__________10.vegetables_____________\n")
+
+def vegetables():
+	v={"beans":(1,30),"carrot":(0.5,20),"beetroot":(2,50)}
+	sum=v["beans"][0]*v["beans"][1]+v["carrot"][0]*v["carrot"][1]+v["beetroot"][0]*v["beetroot"][1]
+	return sum	
+	
+v=vegetables()
+print(v)
 
 
