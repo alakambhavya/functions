@@ -91,4 +91,22 @@ def vegetables():
 v=vegetables()
 print(v)
 
+print("__________________")
+
+def m1(a):
+	print(a)
+def m2(a):
+	m1(a)
+	print(a)
+m2(10)
+
+print("___________________")
+
+def m(a):
+	print(a)
+def m1(a,b):
+	print(a)
+	print(b)
+m(49)
+
 
